@@ -1,0 +1,75 @@
+
+hr
+{
+    margin-bottom: 30px;
+}
+
+.texto
+{
+    margin-top: 10%;
+
+}
+
+.texto > p > a
+{
+    text-decoration: none;
+}
+
+.texto > p > a > mark
+{
+    font-weight: 600;
+    padding: 3px;
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.texto > p > a > mark:hover
+{
+    box-shadow: 4px 1px 29px 1px rgb(238, 255, 173);
+    font-size:13pt;
+}
+
+.galeria > p > img
+{
+    max-width:80%;
+}
+body>.sobre
+{
+    height: fit-content;
+}
+
+.sobre-caixa
+{
+    max-width: 70%;
+}
+
+.sobre-caixa > p > mark
+{
+    font-weight: 600;
+    padding: 3px;
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.sobre-caixa > ul
+{
+    margin-left: 5%;
+}
+
+.sobre-caixa > ul > li
+{
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 1px;
+    line-height: 36px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+@media (max-width: 1600px) {
+
+}
+
+@media(max-width: 785px)
+{
+
+}
