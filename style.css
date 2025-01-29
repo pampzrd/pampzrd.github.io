@@ -10,7 +10,7 @@ body
 {
     max-width: 1980px;
     height: 100vh;
-    background: #919d5a;
+    background: #895298;
 }
 
 .cert > p 
@@ -27,10 +27,10 @@ body
 .cabecalho
 {
     color: #fff7e7;
-    background: -moz-repeating-linear-gradient(110deg, #606938,#919d5a,#ffffff);
+    background: -moz-repeating-linear-gradient(110deg, #c4d745, #f1d1ff,#ffffff);
     max-width: 1980px;
     height: 100vh;
-    background: #919d5a;
+    background: #895298;
 }
 
 
@@ -121,7 +121,7 @@ nav > ul > li > a:hover
     padding: 16px 50px;
     text-decoration: none;
     color: #ffffff;
-    border: 1px solid #abff3c;
+    border: 1px solid #efd3ff;
     font-size: 16pt;
 }
 
@@ -129,13 +129,13 @@ nav > ul > li > a:hover
 {
     font-weight: 600;
     font-size: 16.5pt;
-    box-shadow: 4px 1px 49px 1px rgb(238, 255, 173);
+    box-shadow: 4px 1px 49px 1px rgb(225, 213, 234);
 
 }
 
 .texto > .btn
 {
-    background: #f8fff1;
+    background: #eab3ff;
     color: rgba(0, 0, 0, 0.5);
     font-weight: 900;
     margin-left:5pt;
@@ -156,9 +156,10 @@ nav > ul > li > a:hover
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    width: auto;
+    width: 35%;
     position:absolute;
     bottom: 4%;
+    flex-wrap: wrap;
 
 }
 
@@ -169,10 +170,10 @@ nav > ul > li > a:hover
     margin-right:1%;
 }
 
-.cabecalho > .logos > .letsdef
+.cabecalho > .logos > .curvi
 {
-    max-width:65px;
-    height: 65%;
+    max-width:100px;
+    height: 100%;
     margin-right:1%;
 }
 
