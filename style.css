@@ -112,7 +112,7 @@ nav > ul > li > a:hover
 
 }
 
-.texto > a
+.btn0,.btn
 {
     margin-top: 3%;
     display: inline-block;
@@ -124,7 +124,7 @@ nav > ul > li > a:hover
     font-size: 16pt;
 }
 
-.texto > a:hover
+.btn0,.btn:hover
 {
     font-weight: 600;
     font-size: 16.5pt;
@@ -132,10 +132,10 @@ nav > ul > li > a:hover
 
 }
 
-.texto > .btn
+.btn
 {
     background: #eab3ff;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgb(112, 18, 145);
     font-weight: 900;
     margin-left:5pt;
 
