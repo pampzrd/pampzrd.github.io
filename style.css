@@ -26,11 +26,10 @@ body
 
 .cabecalho
 {
-    color: #fff7e7;
-    background: -moz-repeating-linear-gradient(110deg, #c4d745, #f1d1ff,#ffffff);
+    color: #f4e3ff;
+    background: -moz-repeating-linear-gradient(-25deg, #895298, #c968f1, #eab3ff, #3998ff);
     max-width: 1980px;
-    height: 100vh;
-    background: #895298;
+    height: max(125vh);
 }
 
 
