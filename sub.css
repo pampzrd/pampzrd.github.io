@@ -1,9 +1,15 @@
 
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
 hr
 {
-    margin-bottom: 30px;
+    margin:20pt 5px;
 }
-
+a{
+  text-decoration: none;
+    color: #fff;
+}
 .texto
 {
     margin-top: 10%;
@@ -33,14 +39,20 @@ hr
 {
     max-width:80%;
 }
-body>.sobre
+.cabecalho > #sobre
 {
     height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.sobre-caixa
+#sobre > .sobre-caixa
 {
-    max-width: 70%;
+    width: auto;
+    margin-left: 40px;
+    margin-bottom: 40px;
+
 }
 
 .sobre-caixa > p > mark
@@ -51,25 +63,21 @@ body>.sobre
     color: rgba(0, 0, 0, 0.7);
 }
 
-.sobre-caixa > ul
-{
-    margin-left: 5%;
-}
-
 .sobre-caixa > ul > li
 {
-    font-family: 'Noto Sans', sans-serif;
     letter-spacing: 1px;
     line-height: 36px;
     font-size: 17px;
     font-weight: bold;
 }
 
-@media (max-width: 1600px) {
+@media (width:600px) {
+    #sobre{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
 
 }
 
-@media(max-width: 785px)
-{
-
-}
