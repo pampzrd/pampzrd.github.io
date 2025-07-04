@@ -22,10 +22,6 @@ h1
 
 }
 
-.cabecalho > .texto1{
-    padding: 1%;
-    width: 100%;
-}
 
 .texto > p > a
 {
@@ -86,23 +82,34 @@ h1
     font-size: 17px;
     font-weight: bold;
 }
+.textos1 > .projetos{
+    display: flex;
 
+}
+.cards{
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
 
 .cards > a{
-    height: fit-content;
-    width: 70%;
-    display: flex;
-    flex-wrap: wrap;
+    height: 100%;
+    width: 100vw;
+}
+
+.cards .img{
+    width: auto;
+    display: block;
+}
+
+.cabecalho > .texto1{
     align-self: center;
-    align-items: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
-a > p{
-    margin-left: 20px;
-}
-.cards .img{
-    width: 100%;
-}
+
 @media (width:600px) {
     #sobre{
         display: flex;
