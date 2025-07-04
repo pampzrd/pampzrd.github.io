@@ -4,21 +4,35 @@
 }
 hr
 {
-    margin:20pt 5px;
+    margin:5pt 5px;
 }
 a{
   text-decoration: none;
     color: #fff;
 }
-.texto
-{
-    margin-top: 10%;
 
+h1
+{
+    margin-top: 5%;
+    font-size: 55px;
+    line-height: 160px;
+    font-family: 'Righteous', cursive;
+    filter: drop-shadow(2px 7px 5px rgba(30, 30, 30, 0.3));
+    color: white;
+
+}
+
+.cabecalho > .texto1{
+    padding: 1%;
+    width: 100%;
 }
 
 .texto > p > a
 {
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .texto > p > a > mark
@@ -39,18 +53,20 @@ a{
 {
     max-width:80%;
 }
-.cabecalho > #sobre
+#sobre
 {
     height: fit-content;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #sobre > .sobre-caixa
 {
-    width: auto;
-    margin-left: 40px;
+    margin-left: 1%;
     margin-bottom: 40px;
 
 }
@@ -76,6 +92,13 @@ a{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .cards{
+        width: 200px;
+    }
+    .cards p{
+        width: 150px;
     }
 
 

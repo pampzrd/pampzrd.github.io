@@ -84,7 +84,11 @@ nav > ul > li > a:hover
     text-shadow: 4px 1px 49px 1px rgb(255, 255, 255,0.2);
 
 }
-
+p {
+    letter-spacing: 1px;
+    line-height: 36px;
+    font-size: 16px;
+}
 
 .texto p
 {
