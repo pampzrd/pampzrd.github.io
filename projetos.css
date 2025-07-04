@@ -52,7 +52,7 @@ body
 }
 .img p{
     width: 100%;
-    color: rgb(234, 179, 255);
+    color: rgb(95, 41, 119);
     text-align: left;
     padding: 20px;
 
@@ -122,5 +122,6 @@ body
         visibility: hidden;
 
     }
+
 
 }
