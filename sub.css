@@ -23,6 +23,8 @@ h1
 }
 
 
+
+
 .texto > p > a
 {
     text-decoration: none;
@@ -56,8 +58,8 @@ h1
     display: flex;
     flex-wrap: wrap;
     align-self: center;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 #sobre > .sobre-caixa
