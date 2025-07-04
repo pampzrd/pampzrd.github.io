@@ -57,7 +57,7 @@ h1
     flex-wrap: wrap;
     align-self: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #sobre > .sobre-caixa
