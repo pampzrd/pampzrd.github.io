@@ -29,7 +29,7 @@ body
     color: #f4e3ff;
     background: -moz-repeating-linear-gradient(-25deg, #895298, #c968f1, #eab3ff, #3998ff);
     max-width: 1980px;
-    height: max(125vh);
+    height: max(100vh);
 }
 
 
