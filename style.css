@@ -10,7 +10,7 @@ body
 {
     max-width: 1980px;
     height: 100vh;
-    background: #895298;
+    background: #FFE5E1;
 }
 
 .cert > p 
@@ -27,9 +27,12 @@ body
 .cabecalho
 {
     color: #f4e3ff;
-    background: -moz-repeating-linear-gradient(-25deg, #895298, #c968f1, #eab3ff, #3998ff);
+    background: -moz-repeating-linear-gradient(-25deg, #FFE5E1, #033495);
+    background: -ms-linear-gradient(-25deg, #FFE5E1, #033495);
+    background: linear-gradient(-25deg, #FFE5E1, #033495);
+
     max-width: 1980px;
-    height: max(100vh);
+    min-height: 100vh;
 }
 
 
@@ -59,7 +62,7 @@ nav > ul
 {
     flex: 1;
     text-align: right;
-    padding-right: 40px;
+    padding-right: 20px;
 
 }
 
@@ -124,22 +127,22 @@ p {
     padding: 16px 50px;
     text-decoration: none;
     color: #ffffff;
-    border: 1px solid #efd3ff;
+    border: 1px solid #3998ff;
     font-size: 16pt;
 }
 
-.btn0,.btn:hover
+.btn0:hover,.btn:hover
 {
     font-weight: 600;
     font-size: 16.5pt;
-    box-shadow: 4px 1px 49px 1px rgb(225, 213, 234);
+    box-shadow: 4px 1px 49px 1px rgb(57, 152, 255);
 
 }
 
 .btn
 {
-    background: #eab3ff;
-    color: rgb(112, 18, 145);
+    background: #033495;
+    color: #AEE4F4;
     font-weight: 900;
     margin-left:5pt;
 
