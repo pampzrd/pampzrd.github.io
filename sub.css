@@ -21,9 +21,9 @@ h1
     color: white;
 
 }
-
-
-
+p{
+    line-height: 30;
+}
 
 .texto > p > a
 {
@@ -84,37 +84,46 @@ h1
     font-size: 17px;
     font-weight: bold;
 }
-.textos1 > .projetos{
-    display: flex;
 
-}
 .cards{
-    width: 60%;
+    width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cards > a{
-    height: 100%;
-    width: 100vw;
+    width: 300px;
+    margin: 0 10px;
+
 }
 
 .cards .img{
-    width: auto;
-    display: block;
-}
-body > .cabecalho{
-    width: 100%;
-}
-.cabecalho > .texto1{
-    align-self: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    width: 300px;
+    display: inline-grid;
+    align-items: baseline;
     justify-content: center;
 }
 
+.cabecalho > .texto1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.textos1 > #projetos{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
 @media (width:600px) {
+
     #sobre{
         display: flex;
         flex-direction: column;
@@ -122,11 +131,13 @@ body > .cabecalho{
         overflow: hidden;
     }
     .cards{
-        width: 200px;
+        max-width: 200px;
     }
     .cards p{
-        width: 150px;
+        max-width: 150px;
     }
+
+
 
 
 }
