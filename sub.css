@@ -43,8 +43,8 @@ p{
 
 .texto > p > a > mark:hover
 {
-    box-shadow: 4px 1px 29px 1px rgb(244, 227, 255);
-    font-size:13pt;
+    box-shadow: 4px 1px 29px 1px rgba(244, 227, 255, 0.4);
+    font-size:11pt;
 }
 
 .galeria > p > img

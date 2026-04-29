@@ -13,6 +13,7 @@ body
 
 #projetos .cards {
     margin-bottom: 20px;
+    flex-direction: column;
 }
 
 .cards .img{
@@ -24,6 +25,8 @@ body
 }
 .cards .img p{
     width: 100%;
+    font-size: 10pt;
+    line-height: 1.7em
 }
 
 .cards h2{

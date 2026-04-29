@@ -13,9 +13,9 @@ body
     width: 100vw;
     height: fit-content;
     overflow-x: hidden;
-    background: -moz-repeating-linear-gradient(-25deg, #FFE5E1, #033495);
-    background: -ms-linear-gradient(-25deg, #FFE5E1, #033495);
-    background: linear-gradient(-25deg, #FFE5E1, #033495);
+    background: -moz-repeating-linear-gradient(-25deg, #392b5d, #033495);
+    background: -ms-linear-gradient(-25deg, #392b5d, #033495);
+    background: linear-gradient(-25deg, #392b5d, #033495);
 }
 
 .cert > p 
